@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,900);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    padding: 10px;
+    background: url("src/background-image.jpg") no-repeat center center;
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    padding: 80px 0;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+}
+
+.container > p {
+    font-size: 27px;
+    font-weigth: 100;
+    margin: 20px;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    background: none;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 15px 45px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+
+main {
+    margin: 50px auto;
+    max-width: 1060px;
+    padding: 0 10px;
+}
+
+h2 {
+    color: rgb(35, 68, 101);
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+main > p {
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 5px;
+    letter-spacing: 0;
+    width: 800px;
+}
+
+img {
+    float: left;
+    width: 180px;
+    height: 100px;
+    margin: 10px 50px 0 0;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    height: 80px;
+    line-height: 80px;
+    margin: 0px;
+    text-align: center;
+}
+
+footer > p {
+    font-size: 14px;
+}
