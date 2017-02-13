@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Sansita");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Sansita';
+    background-color: rgba(245, 230, 254, 0.9);
+    font-size: 20px;
+}
