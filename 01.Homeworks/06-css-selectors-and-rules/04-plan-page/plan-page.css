@@ -15,3 +15,23 @@ body {
     rgba(175, 104, 241, 1) 84%,
     rgba(168, 125, 255, 1) 100%);
 }
+
+.title {
+    color: rgb(255, 255, 255);
+}
+
+.select-plan {
+    color: rgb(255, 255, 255);
+}
+
+.information {
+    color: rgb(255, 255, 255);
+}
+
+.card-type {
+    background-color: rgb(255, 255, 255);
+}
+
+.chosen-plan {
+    color: rgb(255, 255, 255);
+}
