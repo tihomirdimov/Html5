@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,800");
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to bottom, #567788 0%, #121f25 100%) no-repeat center center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+}
+
+nav {
+    background: #eff4f7;
+    margin: 40px;
+    position: relative;
+    z-index: 5;
+    height: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(164, 168, 169);
+}
+
+nav > ul {
+    padding: 20px 20px 0 20px;
+    float: right;
+}
+
+nav > ul > li {
+    display: inline-block;
+    list-text-style: none;
+    margin-right: 20px;
+    border-bottom: 23px;
+}
+
+nav > ul > li > a:hover {
+    cursor: pointer;
+    border-bottom: rgb(112, 233, 255);
+    color: rgb(51, 51, 51);
+}
+
+.logo {
+    position: absolute;
+    z-index: 0;
+    top: -10px;
+    left: 550px;
+    background-color: rgb(234, 61, 81);
+    width: 140px;
+    height: 140px;
+    margin: 20px;
+}
+
+h1.brand {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    color: rgb(255, 255, 255);
+    margin-top: 72px;
+}
+
+main {
+    background-color: #CBD0D9;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h1.book-title {
+    text-transform: uppercase;
+    position: relative;
+    z-index: 10;
+    color: #121f25;
+    font-size: 54px;
+    margin: 0;
+}
+
+h5.book-genre {
+    text-transform: uppercase;
+    position: relative;
+    z-ndex: 3;
+    top: -80px;
+    left: 80px;
+    color: #6dffb8;
+    font-size: 120px;
+    margin: 0;
+}
+
+section.review {
+    position: relative;
+    z-index: 8;
+    margin: auto;
+    color: #ffffff;
+    width: 300px;
+    padding: 40px;
+    text-align: center;
+    background: linear-gradient(to bottom, #eb3c53 0%, #e6135c 100%) no-repeat center center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 80px;
+    border-radius: 50%;
+}
+
+section.review > p:before p:after {
+    content: '"';
+    color: #af213d;
+    font-size: 30px;
+    font-weigth: 800;
+}
+
+p.stars {
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+button {
+    background: none;
+    border: solid rgb(112, 236, 255);
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+
+}
+
+button:hover {
+    background-color: #70ecff;
+    border-color: rgb(112, 236, 255);
+    color: #348098;
+}
+
+section.teaser{
+    position: relative;
+    z-ndex: 4;
+    top: -250px;
+    background: #ffffff;
+    margin: 50px;
+    padding: 250px 35px 35px 35px;
+    text-align: left;
+}
+
+
+section.teaser > h1 {
+    color: #46ee97;
+    font-size: 42px;
+}
+
+section.teaser > p {
+    width: 70%;
+}
+
+section.teaser> button {
+    background: none;
+    border: 3px solid rgb(98, 130, 145);
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    padding: 10px 25px;
+}
+
+section.teaser > button:hover{
+    background: rgb(98, 130, 145);
+    cursor: pointer;
+    color: rgb(109, 255, 184);
+}
+
