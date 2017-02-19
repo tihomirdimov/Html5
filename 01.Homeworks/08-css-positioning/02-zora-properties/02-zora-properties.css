@@ -1,0 +1,66 @@
+•
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+•
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif, "Comfortaa", sans-serif;
+    color: rgb(51, 51, 51);
+    color: rgb(56, 72, 80);
+    color: rgb(145, 165, 175);
+}
+
+aside {
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+}
+
+nav > img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 80px;
+    border-radius: 50%;
+}
+
+main {
+    background-color: rgb(243, 245, 247);
+    margin-left: 250px;
+}
+
+section > div {
+    display: inline-block;
+}
+
+.h4 {
+    color: rgb(255, 255, 255);
+}
+
+.listed {
+    background-color: #68bc69;
+}
+
+.draft {
+    background-color: rgb(145, 165, 175);
+}
+
+button {
+    background-color: rgb(255, 119, 57);
+}
+
+.property {
+    box-shadow: 8px 6px 17px -1px rgba(0, 0, 0, 0.26);
+}
