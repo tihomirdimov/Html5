@@ -1,0 +1,104 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.test {
+
+    color: rgb(60, 63, 73);
+}
+
+body {
+    font-size: 14px;
+    font-family: “Roboto“, sans-serif;
+    color: #ffffff;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("img/header-bg.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+nav > ul {
+    list-style: none;
+    text-align: right;
+    padding: 40px;
+}
+
+.home {
+    float: left;
+}
+
+nav > ul > li {
+    height: 20px;
+    display: inline;
+}
+
+nav > ul > li > a {
+    padding: 10px 15px 10px 15px;
+    height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav > ul > li > a, nav > ul > li > a:visited {
+    color: rgb(255, 255, 255);
+}
+
+nav > ul > li > a:hover {
+    color: rgb(250, 105, 46);
+}
+
+.moto {
+    margin-top: 120px;
+    vertical-align: middle;
+}
+
+.moto > h1 {
+    display: inline-block;
+    width: 560px;
+    text-align: left;
+}
+
+.moto > h1 > span {
+    font-weight: bolder;
+}
+
+.moto > i {
+    display: inline-block;
+}
+
+.moto > i:hover {
+    color: rgb(250, 105, 46);
+}
+
+.highlights {
+    margin-top: 200px;
+}
+
+.highlight {
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.highlight > p {
+    margin-top: 70px;
+}
+
+main {
+    top:0;
+    bottom: 0;
+    right: 0;
+}
